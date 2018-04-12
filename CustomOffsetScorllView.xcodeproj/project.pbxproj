@@ -1,0 +1,576 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		741480BD207F60B60004654C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 741480BC207F60B60004654C /* AppDelegate.m */; };
+		741480C0207F60B60004654C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 741480BF207F60B60004654C /* ViewController.m */; };
+		741480C3207F60B60004654C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 741480C1207F60B60004654C /* Main.storyboard */; };
+		741480C5207F60B70004654C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 741480C4207F60B70004654C /* Assets.xcassets */; };
+		741480C8207F60B70004654C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 741480C6207F60B70004654C /* LaunchScreen.storyboard */; };
+		741480CB207F60B70004654C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 741480CA207F60B70004654C /* main.m */; };
+		741480D5207F60B70004654C /* CustomOffsetScorllViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 741480D4207F60B70004654C /* CustomOffsetScorllViewTests.m */; };
+		741480E0207F60B70004654C /* CustomOffsetScorllViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 741480DF207F60B70004654C /* CustomOffsetScorllViewUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		741480D1207F60B70004654C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 741480B0207F60B60004654C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 741480B7207F60B60004654C;
+			remoteInfo = CustomOffsetScorllView;
+		};
+		741480DC207F60B70004654C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 741480B0207F60B60004654C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 741480B7207F60B60004654C;
+			remoteInfo = CustomOffsetScorllView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		741480B8207F60B60004654C /* CustomOffsetScorllView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CustomOffsetScorllView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		741480BB207F60B60004654C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		741480BC207F60B60004654C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		741480BE207F60B60004654C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		741480BF207F60B60004654C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		741480C2207F60B60004654C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		741480C4207F60B70004654C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		741480C7207F60B70004654C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		741480C9207F60B70004654C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		741480CA207F60B70004654C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		741480D0207F60B70004654C /* CustomOffsetScorllViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CustomOffsetScorllViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		741480D4207F60B70004654C /* CustomOffsetScorllViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomOffsetScorllViewTests.m; sourceTree = "<group>"; };
+		741480D6207F60B70004654C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		741480DB207F60B70004654C /* CustomOffsetScorllViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CustomOffsetScorllViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		741480DF207F60B70004654C /* CustomOffsetScorllViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomOffsetScorllViewUITests.m; sourceTree = "<group>"; };
+		741480E1207F60B70004654C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		741480B5207F60B60004654C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		741480CD207F60B70004654C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		741480D8207F60B70004654C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		741480AF207F60B60004654C = {
+			isa = PBXGroup;
+			children = (
+				741480BA207F60B60004654C /* CustomOffsetScorllView */,
+				741480D3207F60B70004654C /* CustomOffsetScorllViewTests */,
+				741480DE207F60B70004654C /* CustomOffsetScorllViewUITests */,
+				741480B9207F60B60004654C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		741480B9207F60B60004654C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				741480B8207F60B60004654C /* CustomOffsetScorllView.app */,
+				741480D0207F60B70004654C /* CustomOffsetScorllViewTests.xctest */,
+				741480DB207F60B70004654C /* CustomOffsetScorllViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		741480BA207F60B60004654C /* CustomOffsetScorllView */ = {
+			isa = PBXGroup;
+			children = (
+				741480BB207F60B60004654C /* AppDelegate.h */,
+				741480BC207F60B60004654C /* AppDelegate.m */,
+				741480BE207F60B60004654C /* ViewController.h */,
+				741480BF207F60B60004654C /* ViewController.m */,
+				741480C1207F60B60004654C /* Main.storyboard */,
+				741480C4207F60B70004654C /* Assets.xcassets */,
+				741480C6207F60B70004654C /* LaunchScreen.storyboard */,
+				741480C9207F60B70004654C /* Info.plist */,
+				741480CA207F60B70004654C /* main.m */,
+			);
+			path = CustomOffsetScorllView;
+			sourceTree = "<group>";
+		};
+		741480D3207F60B70004654C /* CustomOffsetScorllViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				741480D4207F60B70004654C /* CustomOffsetScorllViewTests.m */,
+				741480D6207F60B70004654C /* Info.plist */,
+			);
+			path = CustomOffsetScorllViewTests;
+			sourceTree = "<group>";
+		};
+		741480DE207F60B70004654C /* CustomOffsetScorllViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				741480DF207F60B70004654C /* CustomOffsetScorllViewUITests.m */,
+				741480E1207F60B70004654C /* Info.plist */,
+			);
+			path = CustomOffsetScorllViewUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		741480B7207F60B60004654C /* CustomOffsetScorllView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 741480E4207F60B70004654C /* Build configuration list for PBXNativeTarget "CustomOffsetScorllView" */;
+			buildPhases = (
+				741480B4207F60B60004654C /* Sources */,
+				741480B5207F60B60004654C /* Frameworks */,
+				741480B6207F60B60004654C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CustomOffsetScorllView;
+			productName = CustomOffsetScorllView;
+			productReference = 741480B8207F60B60004654C /* CustomOffsetScorllView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		741480CF207F60B70004654C /* CustomOffsetScorllViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 741480E7207F60B70004654C /* Build configuration list for PBXNativeTarget "CustomOffsetScorllViewTests" */;
+			buildPhases = (
+				741480CC207F60B70004654C /* Sources */,
+				741480CD207F60B70004654C /* Frameworks */,
+				741480CE207F60B70004654C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				741480D2207F60B70004654C /* PBXTargetDependency */,
+			);
+			name = CustomOffsetScorllViewTests;
+			productName = CustomOffsetScorllViewTests;
+			productReference = 741480D0207F60B70004654C /* CustomOffsetScorllViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		741480DA207F60B70004654C /* CustomOffsetScorllViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 741480EA207F60B70004654C /* Build configuration list for PBXNativeTarget "CustomOffsetScorllViewUITests" */;
+			buildPhases = (
+				741480D7207F60B70004654C /* Sources */,
+				741480D8207F60B70004654C /* Frameworks */,
+				741480D9207F60B70004654C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				741480DD207F60B70004654C /* PBXTargetDependency */,
+			);
+			name = CustomOffsetScorllViewUITests;
+			productName = CustomOffsetScorllViewUITests;
+			productReference = 741480DB207F60B70004654C /* CustomOffsetScorllViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		741480B0207F60B60004654C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = wdyzmx;
+				TargetAttributes = {
+					741480B7207F60B60004654C = {
+						CreatedOnToolsVersion = 9.3;
+					};
+					741480CF207F60B70004654C = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = 741480B7207F60B60004654C;
+					};
+					741480DA207F60B70004654C = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = 741480B7207F60B60004654C;
+					};
+				};
+			};
+			buildConfigurationList = 741480B3207F60B60004654C /* Build configuration list for PBXProject "CustomOffsetScorllView" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 741480AF207F60B60004654C;
+			productRefGroup = 741480B9207F60B60004654C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				741480B7207F60B60004654C /* CustomOffsetScorllView */,
+				741480CF207F60B70004654C /* CustomOffsetScorllViewTests */,
+				741480DA207F60B70004654C /* CustomOffsetScorllViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		741480B6207F60B60004654C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				741480C8207F60B70004654C /* LaunchScreen.storyboard in Resources */,
+				741480C5207F60B70004654C /* Assets.xcassets in Resources */,
+				741480C3207F60B60004654C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		741480CE207F60B70004654C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		741480D9207F60B70004654C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		741480B4207F60B60004654C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				741480C0207F60B60004654C /* ViewController.m in Sources */,
+				741480CB207F60B70004654C /* main.m in Sources */,
+				741480BD207F60B60004654C /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		741480CC207F60B70004654C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				741480D5207F60B70004654C /* CustomOffsetScorllViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		741480D7207F60B70004654C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				741480E0207F60B70004654C /* CustomOffsetScorllViewUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		741480D2207F60B70004654C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 741480B7207F60B60004654C /* CustomOffsetScorllView */;
+			targetProxy = 741480D1207F60B70004654C /* PBXContainerItemProxy */;
+		};
+		741480DD207F60B70004654C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 741480B7207F60B60004654C /* CustomOffsetScorllView */;
+			targetProxy = 741480DC207F60B70004654C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		741480C1207F60B60004654C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				741480C2207F60B60004654C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		741480C6207F60B70004654C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				741480C7207F60B70004654C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		741480E2207F60B70004654C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		741480E3207F60B70004654C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		741480E5207F60B70004654C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CustomOffsetScorllView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = wdyzmx.CustomOffsetScorllView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		741480E6207F60B70004654C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CustomOffsetScorllView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = wdyzmx.CustomOffsetScorllView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		741480E8207F60B70004654C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CustomOffsetScorllViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = wdyzmx.CustomOffsetScorllViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CustomOffsetScorllView.app/CustomOffsetScorllView";
+			};
+			name = Debug;
+		};
+		741480E9207F60B70004654C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CustomOffsetScorllViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = wdyzmx.CustomOffsetScorllViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CustomOffsetScorllView.app/CustomOffsetScorllView";
+			};
+			name = Release;
+		};
+		741480EB207F60B70004654C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CustomOffsetScorllViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = wdyzmx.CustomOffsetScorllViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CustomOffsetScorllView;
+			};
+			name = Debug;
+		};
+		741480EC207F60B70004654C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CustomOffsetScorllViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = wdyzmx.CustomOffsetScorllViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CustomOffsetScorllView;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		741480B3207F60B60004654C /* Build configuration list for PBXProject "CustomOffsetScorllView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				741480E2207F60B70004654C /* Debug */,
+				741480E3207F60B70004654C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		741480E4207F60B70004654C /* Build configuration list for PBXNativeTarget "CustomOffsetScorllView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				741480E5207F60B70004654C /* Debug */,
+				741480E6207F60B70004654C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		741480E7207F60B70004654C /* Build configuration list for PBXNativeTarget "CustomOffsetScorllViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				741480E8207F60B70004654C /* Debug */,
+				741480E9207F60B70004654C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		741480EA207F60B70004654C /* Build configuration list for PBXNativeTarget "CustomOffsetScorllViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				741480EB207F60B70004654C /* Debug */,
+				741480EC207F60B70004654C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 741480B0207F60B60004654C /* Project object */;
+}
