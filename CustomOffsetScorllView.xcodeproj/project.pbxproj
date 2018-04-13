@@ -15,7 +15,7 @@
 		741480CB207F60B70004654C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 741480CA207F60B70004654C /* main.m */; };
 		741480D5207F60B70004654C /* CustomOffsetScorllViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 741480D4207F60B70004654C /* CustomOffsetScorllViewTests.m */; };
 		741480E0207F60B70004654C /* CustomOffsetScorllViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 741480DF207F60B70004654C /* CustomOffsetScorllViewUITests.m */; };
-		741480EF207F85220004654C /* CustomCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 741480EE207F85220004654C /* CustomCollectionView.m */; };
+		741480EF207F85220004654C /* CustomScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 741480EE207F85220004654C /* CustomScrollView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,8 +52,8 @@
 		741480DB207F60B70004654C /* CustomOffsetScorllViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CustomOffsetScorllViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		741480DF207F60B70004654C /* CustomOffsetScorllViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomOffsetScorllViewUITests.m; sourceTree = "<group>"; };
 		741480E1207F60B70004654C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		741480ED207F85220004654C /* CustomCollectionView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CustomCollectionView.h; sourceTree = "<group>"; };
-		741480EE207F85220004654C /* CustomCollectionView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomCollectionView.m; sourceTree = "<group>"; };
+		741480ED207F85220004654C /* CustomScrollView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CustomScrollView.h; sourceTree = "<group>"; };
+		741480EE207F85220004654C /* CustomScrollView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomScrollView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,8 +113,8 @@
 				741480C6207F60B70004654C /* LaunchScreen.storyboard */,
 				741480C9207F60B70004654C /* Info.plist */,
 				741480CA207F60B70004654C /* main.m */,
-				741480ED207F85220004654C /* CustomCollectionView.h */,
-				741480EE207F85220004654C /* CustomCollectionView.m */,
+				741480ED207F85220004654C /* CustomScrollView.h */,
+				741480EE207F85220004654C /* CustomScrollView.m */,
 			);
 			path = CustomOffsetScorllView;
 			sourceTree = "<group>";
@@ -270,7 +270,7 @@
 				741480C0207F60B60004654C /* ViewController.m in Sources */,
 				741480CB207F60B70004654C /* main.m in Sources */,
 				741480BD207F60B60004654C /* AppDelegate.m in Sources */,
-				741480EF207F85220004654C /* CustomCollectionView.m in Sources */,
+				741480EF207F85220004654C /* CustomScrollView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
