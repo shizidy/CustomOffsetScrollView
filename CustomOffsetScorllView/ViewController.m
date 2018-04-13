@@ -18,7 +18,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.view.backgroundColor = [UIColor whiteColor];
-     CustomScrollView *scrollView = [[CustomScrollView alloc] initWithFrame:CGRectMake(0, 20, kscreenWidth, 300) margin:30 gap:20 sourceArray:@[@"1", @"2", @"3", @"4", @"5", @"6"]];
+     CustomScrollView *scrollView = [[CustomScrollView alloc] initWithFrame:CGRectMake(0, 20, kscreenWidth, 300) margin:30 gap:20 sourceArray:@[@"1", @"2", @"3", @"4", @"5", @"6"] andPicStyle:ThreePicStyle];
     [self.view addSubview:scrollView];
     // Do any additional setup after loading the view, typically from a nib.
 }

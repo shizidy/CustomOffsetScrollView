@@ -8,7 +8,14 @@
 
 #import <UIKit/UIKit.h>
 
+typedef enum : NSUInteger {
+    OnePicStyle,//只显示一张
+    TwoPicStyle,//两张
+    ThreePicStyle,//三张
+} ScrollPicStyle;
+
 @interface CustomScrollView : UIView
+
 
 /**
  初始化CustomScrollView
@@ -19,5 +26,5 @@
  @param sourceArr 数据源
  @return return
  */
--(instancetype)initWithFrame:(CGRect)frame margin:(CGFloat)margin gap:(CGFloat)gap sourceArray:(NSArray *)sourceArr;
+-(instancetype)initWithFrame:(CGRect)frame margin:(CGFloat)margin gap:(CGFloat)gap sourceArray:(NSArray *)sourceArr andPicStyle:(ScrollPicStyle)style;
 @end
