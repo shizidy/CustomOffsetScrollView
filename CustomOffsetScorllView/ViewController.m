@@ -7,15 +7,19 @@
 //
 
 #import "ViewController.h"
-
+#import "CustomCollectionView.h"
+#define kscreenWidth [UIScreen mainScreen].bounds.size.width
+#define kscreenHeight [UIScreen mainScreen].bounds.size.height
 @interface ViewController ()
-
 @end
 
 @implementation ViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    self.view.backgroundColor = [UIColor whiteColor];
+    CustomCollectionView *collectionView = [[CustomCollectionView alloc] initWithFrame:CGRectMake(0, 20, kscreenWidth, 300) margin:30 gap:20 sourceArray:@[@"1", @"2", @"3", @"4", @"5", @"6"]];
+    [self.view addSubview:collectionView];
     // Do any additional setup after loading the view, typically from a nib.
 }
 
